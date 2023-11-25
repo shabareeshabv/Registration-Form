@@ -1,0 +1,10 @@
+.is-form-valid{
+    border: 1px solid limegreen;
+    border-left: 15px solid lime;
+    box-shadow: 0 0 5px limegreen
+}
+.is-form-invalid{
+    border: 1px solid rgb(249, 121, 30);
+    border-left: 15px solid rgb(211, 93, 38);
+    box-shadow: 0 0 5px rgb(227, 152, 31)
+}

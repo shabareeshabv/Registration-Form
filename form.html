@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Validation</title>
+
+        <!-- Add Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+        <style>
+            .is-form-valid {
+                border: 1px solid rgb(218, 18, 108);
+                border-left: 15px solid rgb(218, 18, 108);
+                box-shadow: 0 0 5px rgb(218, 18, 108);
+            }
+            
+          
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+            <a class="navbar-brand" href="#">Registration Form</a>
+        </nav>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4 m-auto">
+                    <div class="card">
+                        <div class="card-header bg-success text-white text-center">
+                            <h3>Register Form</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="register-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control is-form-valid" placeholder="User Name" id="username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control is-form-valid" placeholder="Email" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control is-form-valid" placeholder="Password" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control is-form-valid" placeholder="Confirm Password" id="cpassword">
+                                </div>
+                                <div class="text-center ">
+                                    <input type="submit" value="Register" class="btn btn-primary">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Bootstrap JavaScript and jQuery (optional) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
